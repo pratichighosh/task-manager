@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # Task Manager Application
 
-## Getting Started
+A modern **Task Management Web Application** built using **Next.js App Router**, featuring user authentication, task management, and backend logic handled via **Next.js server-side APIs**.
 
-First, run the development server:
+🔗 **Live Demo:**  
+https://task-management-five-iota.vercel.app/login
+
+🔗 **GitHub Repository:**  
+https://github.com/pratichighosh/task-manager
+
+---
+
+## 🚀 Features
+
+- 🔐 User Authentication (Login)
+- 📝 Create, update, and delete tasks
+- 📋 Task organization and management
+- 🌐 Backend logic using Next.js API routes
+- ⚡ Server-side rendering for better performance
+- 🎨 Responsive UI with Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js** (App Router)
+- **React**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+
+### Backend
+- **Next.js API Routes**
+- **Server-side logic using App Router**
+- **Node.js runtime (via Next.js)**
+
+### Deployment
+- **Vercel**
+
+---
+
+## 🧠 Architecture Overview
+
+- The application is built using **Next.js App Router**
+- Frontend pages and layouts are defined inside `src/app`
+- Backend functionality is handled using **Next.js server-side APIs**
+- Authentication and task operations are processed on the server
+- No separate backend server is required
+
+> This project uses Next.js as a **full-stack framework**, combining frontend and backend logic in a single codebase.
+
+---
+
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1️⃣ Clone the repository
 
 ```bash
+git clone https://github.com/pratichighosh/task-manager.git
+cd task-manager
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project is deployed on Vercel, which natively supports both frontend and backend (API routes) for Next.js applications.
 
-## Learn More
+🔗 Live URL:
+https://task-management-five-iota.vercel.app/login
 
-To learn more about Next.js, take a look at the following resources:
+Future Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Database integration (MongoDB / PostgreSQL)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Role-based authentication
 
-## Deploy on Vercel
+Task filtering and priority levels
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Improved API validation and error handling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Author
+
+Pratichi Ghosh
+GitHub: https://github.com/pratichighosh
