@@ -54,9 +54,7 @@ https://github.com/pratichighosh/task-manager
 
 ---
 
-## 🧑‍💻 Getting Started
-
-### 1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/pratichighosh/task-manager.git
@@ -67,7 +65,7 @@ npm install
 npm run dev
 
 
-Deployment
+## 2️⃣ Deployment
 
 The project is deployed on Vercel, which natively supports both frontend and backend (API routes) for Next.js applications.
 
@@ -85,7 +83,7 @@ Task filtering and priority levels
 Improved API validation and error handling
 
 
-Author
+## 3️⃣ Author
 
 Pratichi Ghosh
 GitHub: https://github.com/pratichighosh
