@@ -51,9 +51,6 @@ https://github.com/pratichighosh/task-manager
 
 ---
 
-
----
-
 ## 1️⃣ Clone the repository
 
 ```bash
